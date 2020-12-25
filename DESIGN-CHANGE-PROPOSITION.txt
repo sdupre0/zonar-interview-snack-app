@@ -1,0 +1,12 @@
+To address the need to differentiate between customers and staff, a new activity should be added as the first screen of the app.
+
+On this screen would simply be two buttons, one with the text "Customer" and one with "Staff".
+
+On pushing either button, that choice will be permanent until manually changed, with the intent of allowing staff to select the correct
+option themselves when they first turn the devices on at shift start.
+
+On selecting "Customer" the app will proceed exactly as it is now, proceeding to the menu, but the add snack button will be hidden
+and unable to be interacted with.
+
+On selecting "Staff" a login dialog will be shown, allowing a staff member to input their credentials. When they is passed, the app will
+also proceed as it is now, but the add snack button will be present.
