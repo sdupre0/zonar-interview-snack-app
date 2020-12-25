@@ -1,0 +1,40 @@
+{
+  "snacks": [
+    {
+      "name": "French fries",
+      "veg": true
+    },
+    {
+      "name": "Veggie burger",
+      "veg": true
+    },
+    {
+      "name": "Carrots",
+      "veg": true
+    },
+    {
+      "name": "Apple",
+      "veg": true
+    },
+    {
+      "name": "Banana",
+      "veg": true
+    },
+    {
+      "name": "Milkshake",
+      "veg": true
+    },
+    {
+      "name": "Cheeseburger",
+      "veg": false
+    },
+    {
+      "name": "Hamburger",
+      "veg": false
+    },
+    {
+      "name": "Hot dog",
+      "veg": false
+    }
+  ]
+}

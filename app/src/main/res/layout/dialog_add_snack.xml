@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_weight=".75"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="10dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/add_dialog_title"
+        android:textSize="24sp"
+        android:textColor="@color/colorText"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_dialog_name_label"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:labelFor="@id/snack_name"/>
+    <EditText
+        android:id="@+id/snack_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:inputType="text"
+        android:autofillHints=""/>
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:text="@string/add_dialog_veg_label"
+        android:labelFor="@id/veg_checkbox" />-->
+    <CheckBox
+        android:id="@+id/veg_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="5dp"
+        android:text="@string/add_dialog_veg_label"/>
+
+</LinearLayout>

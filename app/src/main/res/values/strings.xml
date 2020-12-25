@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SnackApp</string>
+    <string name="app_title">Snacc</string>
+    <string name="add_snack_button">Add Snack</string>
+    <string name="veggie_filter_text">Veggie</string>
+    <string name="non_veggie_filter_text">Non-Veggie</string>
+    <string name="submit_order_text">Submit Order</string>
+
+    <!--order confirm dialog-->
+    <string name="order_dialog_title">Order Confirmation</string>
+    <string name="order_dialog_text">Is this the correct order?</string>
+    <string name="order_dialog_confirm">Confirm</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <!-- add snack dialog-->
+    <string name="add_dialog_title">Add a Snack</string>
+    <string name="add_dialog_name_label">Enter snack name:</string>
+    <string name="add_dialog_veg_label">Vegetarian</string>
+    <string name="add_dialog_confirm">Save</string>
+</resources>
